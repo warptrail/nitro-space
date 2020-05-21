@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Nitro Space</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="This is what search sees">
+    <link rel="icon" href="Verax8.ico">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type='text/css'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="main-nav">
+        <a class="navbar-brand" href="#">Internet Web</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <a class="navbar-brand" href="#">
+                    <img src="Verax8.ico" width="35" height="35" alt="" loading="lazy">
+                </a>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.random.org/geographic-coordinates/" target="_blank">Far
+                        Away</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Over There</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Someplace Else</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Nowhere</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Void Realm</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="title" class="container-fluid text-center">
+        <h1>Welcome to Nitro-Space dot com</h1>
+        <h1>⍙⟒⌰☊⍜⋔⟒ ⏁⍜ ⋏⟟⏁⍀⍜-⌇⌿⏃☊⟒ ⎅⍜⏁ ☊⍜⋔</h1>
+
+    </div>
+
+    <div id="welcomebox" class="container-fluid">
+
+    </div>
+
+    <div id="about" class="container-fluid">
+        <div class="row">
+            <div class="col-4">
+                <p>This is a website built to practice, implement and experiment with javascript in the DOM (Document
+                    Object Model). It is designed to be ridiculous and tacky. This is the beauty of web development.
+                    Almost anything you can imagine, you can create. Press command-option-j to bring up the console log
+                    for more javascript fun under the hood. </p>
+            </div>
+            <div class="col-3">
+                <p>I am still having trouble figuring out Bootstrap and all the layout bugs. This site is not meant for
+                    mobile phones, best viewed on a desktop monitor. </p>
+            </div>
+            <div class="col-3">
+                <p>
+                    Move around, press the buttons, explore the source code. Thanks to <a
+                        href="https://www.thinkful.com/bootcamp/san-francisco-coding-bootcamp/?utm_campaign=TF_San-Francisco_Search_Local_Exact&utm_medium=cpc&utm_content=TF_San-Francisco_Search_Brand-Local_Exact_Ad-Group_c_brand-local_421356796961&utm_term=thinkful_e&utm_source=google&partnership=TF_San-Francisco_Search_Local_Exact_google_thinkful_brand-local&gclid=Cj0KCQjwzZj2BRDVARIsABs3l9IO4e7Gkc1LYO2p424jD02h3Dm7jzIdL7QArTtH4rteMiAv6eCRjcsaAuCIEALw_wcB">Thinkful.com</a>
+                    for giving me the
+                    idea to implement their teachings in this way.
+                </p>
+            </div>
+            <div class="col-1">
+                <img class="img-fluid" src="dropgrades.png" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid" id="banner-col-1">
+        <div class="row alpha-row">
+            <div class="col-1 colorify">
+            </div>
+            <div class="col-1 colorify">
+
+            </div>
+            <div class="col-1 colorify">
+
+            </div>
+            <div class="col-1 colorify">
+
+            </div>
+            <div class="col-1 colorify">
+
+            </div>
+            <div class="col-1 colorify">
+
+            </div>
+            <div class="col-1 colorify">
+
+            </div>
+            <div class="col-1 colorify">
+
+            </div>
+            <div class="col-1 colorify">
+
+            </div>
+            <div class="col-1 colorify">
+
+            </div>
+            <div class="col-1 colorify">
+
+            </div>
+            <div class="col-1 colorify">
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" id="banner-col-2">
+        <div class="container text-center">
+            <button id='colorcol2'>Colorify</button>
+        </div>
+        <div class="row beta-row">
+            <div class="col-2">
+
+            </div>
+            <div class="col-2">
+
+            </div>
+            <div class="col-2">
+
+            </div>
+            <div class="col-2">
+
+            </div>
+            <div class="col-2">
+
+            </div>
+            <div class="col-2">
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" id="banner-col-3">
+        <div class="row elemental-row">
+            <div class="col-3">
+                <button class="btn btn-primary btn-lg btn-block" id="water-button">Water</button>
+                <div class="container-fluid" id="water-champions-display">
+                </div>
+            </div>
+            <div class="col-3">
+                <button class="btn btn-primary btn-lg btn-block" id="fire-button">Fire</button>
+            </div>
+            <div class="col-3">
+                <button class="btn btn-primary btn-lg btn-block" id="air-button">Air</button>
+            </div>
+            <div class="col-3">
+                <button class="btn btn-primary btn-lg btn-block" id="earth-button">Earth</button>
+            </div>
+        </div>
+        <div class="row" id="elemental-arena">
+
+        </div>
+    </div>
+
+    <div class="container-fluid thinkful">
+        <div class="row">
+            <div class="col-3">
+                <div class="container">
+                    <h2>Typeof</h2>
+                    <img class="img-fluid" src="typeof.png" alt="">
+                    <div id="display-type">
+
+                    </div>
+                </div>
+                <div class="container" id="daved-list-add">
+                    <h2>Add items to a list</h2>
+                    <label for="davedslist">Add to list</label>
+                    <input type="text" name="davedslist" class="form-control input-sm" id="input-daved">
+                    <br>
+                    <button id="multibutton" class="btn btn-primary btn-sm btn-block"
+                        onclick="addWordsToDavedsList()">Add</button>
+                    <ul id="davedslist">
+                        <li>The first Item</li>
+                        <li>The Second Item</li>
+                        <li>The Third Item</li>
+                        <li>The Fourth Item</li>
+                        <li>The Fifth Item</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="container">
+                    <h2>Booleans</h2>
+                    <img class="img-fluid" src="boolean.png" alt="">
+                    <div class="checkboxes">
+                        <input type="checkbox" id="spaceship1" class="spaceships" name="spaceship1"
+                            value="Space Ship 1">
+                        <label for="spaceship2"> Space Ship 1</label>
+                        <br>
+                        <input type="checkbox" id="spaceship2" class="spaceships" name="spaceship2"
+                            value="Space Ship 2">
+                        <label for="spaceship2"> Space Ship 2</label>
+                        <br>
+                        <input type="checkbox" id="spaceship3" class="spaceships" name="spaceship3"
+                            value="Space Ship 3">
+                        <label for="spaceship3"> Space Ship 3</label>
+                        <br>
+                        <input type="checkbox" id="spaceship4" class="spaceships" name="spaceship4"
+                            value="Space Ship 4">
+                        <label for="spaceship4"> Space Ship 4</label>
+                    </div>
+                    <div id="display-boolean">
+
+                    </div>
+                </div>
+                <div class="container">
+                    <h2>Class1</h2>
+                    <div class="class1" id="div1">Hello World!</div>
+                    <img class="img-fluid" src="toggleimage.png" alt="">
+                    <button class="btn-primary class1" id="button1">Press Me</button>
+                    <div id="show-class1-picture">
+                        <img class="img-fluid" src="saturn2020.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="container">
+                    <h2>Combine Strings</h2>
+                    <img class="img-fluid" src="combine.png" alt="">
+                    <div class="form-group">
+                        <label for="planet">Name of Planet</label>
+                        <input type="text" name="planet" class="form-control input-sm" id="message-alpha">
+                        <label for="planetage">Age of Planet</label>
+                        <input type="number" class="form-control input-sm" id="ageinput" name="planetage">
+                        <br>
+                        <button id="combinefields">Combine Fields</button>
+                        <div class="combine-demo">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <img class="img-fluid" src="sophisticated.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="container">
+                    <h2>Parsing Strings to Numbers</h2>
+                    <img class="img-fluid" src="parseStringToNumber.png" alt="">
+                    <div class="form-group">
+                        <label for="parseinput">Parse this</label>
+                        <input type="text" name="parseinput" class="form-control input-sm" id="parse-alpha">
+                        <button id="parsebutton" class="btn-block push2parse">Push to Parse</button>
+                    </div>
+                    <div id="parsedemo"></div>
+                </div>
+                <div class="container">
+                    <h2>Parsing Numbers to Strings</h2>
+                    <img class="img-fluid" src="string2number2string.png" alt="">
+                    <div class="form-group">
+                        <label for="numbertostring"></label>
+                        <input id="numbertostringinput" class="form-control input-sm" type="number"
+                            name="numbertostring">
+                        <button id="numbertostringbtn" class="btn-block push2parse">Push to Parse</button>
+                    </div>
+                    <div id="demonumbertostring">
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-columns">
+                <div class="card" id="asidecard">
+                    <img src="aside.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Generate your alien name by merging with the quantum network of
+                            extraterrestrial goo</h5>
+                        <form id="alien-name-generator-form">
+                            <label for="humanname">Human Name Here</label>
+                            <input type="text" id="human-name" class="card-text" name="humanname">
+                            <button type="submit" id="submit-name"> submit
+                            </button>
+                        </form>
+                        <h2>Your list of Alien Names</h2>
+                        <div class="card-text" id="new-name">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="card p-3">
+                    <blockquote id="alienscripture" class="blockquote mb-0 card-body">
+                        <p>A message from the Ancient Ones</p>
+                        <p>⋔⍜⎍⋏⏁⏃⟟⋏⍜⎍⌇ ⟒⋏⎐⟟⍀⍜⋏⋔⟒⋏⏁⌇ ⟒⌖⌿⟒⍀⟟⟒⋏☊⟒ ⏃⋏ ⎍⋏⟒⍾⎍⏃⌰ ⎅⟟⌇⏁⍀⟟⏚⎍⏁⟟⍜⋏ ⍜⎎ ⌇⍜⌰⏃⍀ ⍀⏃⎅⟟⏃⏁⟟⍜⋏. ⎅⎍⟒ ⏁⍜ ⏁⊑⟒
+                            ☌⟒⍜⋔⟒⏁⍀⊬ ⍜⎎ ⏁⊑⟒ ⌇⍜⌰⏃⍀ ⌇⊬⌇⏁⟒⋔ ⏁⊑⟒ ⌇⎍⋏ ⎅⍜⟒⌇ ⋏⍜⏁ ⋔⍜⎐⟒ ⎅⟟⍀⟒☊⏁⌰⊬ ⎎⍀⍜⋔ ⟒⏃⌇⏁ ⏁⍜ ⍙⟒⌇⏁, ⟟⏁ ⌰⟒⏃⋏⌇
+                            ⏁⍜⍙⏃⍀⎅⌇ ⏁⊑⟒ ⋏⍜⍀⏁⊑ ⍜⍀ ⌇⍜⎍⏁⊑ ⊑⍜⍀⟟⋉⍜⋏⌇ ⎅⟒⌿⟒⋏⎅⟟⋏☌ ⍜⋏ ⌰⏃⏁⟟⏁⎍⎅⟒. ⋔⍜⎍⋏⏁⏃⟟⋏⌇ ⊑⏃⎐⟒ ⌇⎍⋏⋏⊬ ⏃⋏⎅ ⌇⊑⏃⎅⊬
+                            ⌇⟟⎅⟒⌇ ⎅⟒⏁⟒⍀⋔⟟⋏⟒⎅ ⏚⊬ ⏁⊑⟒ ⏃⋏☌⌰⟒ ⏃⋏⎅ ⎅⟟⍀⟒☊⏁⟟⍜⋏ ⍜⎎ ⏁⊑⟒ ⌇⎍⋏. ⏁⊑⟒ ⍜⋏⌰⊬ ⏁⟟⋔⟒ ⍙⊑⟒⋏ ⏁⊑⟒⍀⟒ ⟟⌇ ⋏⍜ ⌇⊑⏃⎅⊬
+                            ⌇⟟⎅⟒ ⟟⌇ ⍙⊑⟒⋏ ⏁⊑⟒ ⌇⎍⋏ ⟟⌇ ⌿⟒⍀⌿⟒⋏⎅⟟☊⎍⌰⏃⍀ ⏁⍜ ⏁⊑⟒ ⌿⟒⏃☍. ⟟⋏ ⏁⊑⟒ ⋏⍜⍀⏁⊑⟒⍀⋏ ⊑⟒⋔⟟⌇⌿⊑⟒⍀⟒ ⋔⍜⍀⟒ ⌇⍜⌰⏃⍀
+                            ⍀⏃⎅⟟⏃⏁⟟⍜⋏ ⟟⌇ ⍀⟒☊⟒⟟⎐⟒⎅ ⍜⋏ ⏁⊑⟒ ⌇⍜⎍⏁⊑⟒⍀⋏ ⏃⌇⌿⟒☊⏁ ⍜⎎ ⊑⟟⌰⌰⌇ ⏚⟒☊⏃⎍⌇⟒ ⏁⊑⟒ ⌇⎍⋏ ⌇⌿⟒⋏⎅⌇ ⋔⍜⍀⟒ ⏁⟟⋔⟒ ⟟⋏
+                            ⏁⊑⟒ ⌇⍜⎍⏁⊑⟒⍀⋏ ⊑⏃⌰⎎ ⍜⎎ ⏁⊑⟒ ⌇☍⊬. ⏁⊑⟒ ⍜⌿⌿⍜⌇⟟⏁⟒ ⟟⌇ ⏁⍀⎍⟒ ⟟⋏ ⏁⊑⟒ ⌇⍜⎍⏁⊑⟒⍀⋏ ⊑⟒⋔⟟⌇⌿⊑⟒⍀⟒.
+                            ⎅⟟⎎⎎⟒⍀⟒⋏⏁⟟⏃⏁⟟⋏☌ ⌇⍜⌰⏃⍀ ⍀⏃⎅⟟⏃⏁⟟⍜⋏ ☊⏃⎍⌇⟒⌇ ⎅⟟⎎⎎⟒⍀⟒⋏⏁ ⋔⟟☊⍀⍜☊⌰⟟⋔⏃⏁⟒⌇ ⏁⍜ ⎎⍜⍀⋔ ⍜⋏ ⋏⍜⍀⏁⊑ ⏃⋏⎅ ⌇⍜⎍⏁⊑
+                            ⎎⏃☊⟟⋏☌ ⊑⟟⌰⌰-⌇⌰⍜⌿⟒⌇. ⟟⋏☊⍀⟒⏃⌇⟒⎅ ⌇⍜⌰⏃⍀ ⍀⏃⎅⟟⏃⏁⟟⍜⋏ ⍜⋏ ⏁⊑⟒ ⌇⍜⎍⏁⊑ ⌇⟟⎅⟒⌇ ⍀⟒⌇⎍⌰⏁⌇ ⟟⋏ ⊑⟟☌⊑⟒⍀
+                            ⏁⟒⋔⌿⟒⍀⏃⏁⎍⍀⟒⌇, ⊑⟟☌⊑⟒⍀ ⟒⎐⏃⌿⍜⍀⏃⏁⟟⍜⋏ ⍀⏃⏁⟒⌇ ⏃⋏⎅ ⌰⟒⌇⌇ ⌇⍜⟟⌰ ⋔⍜⟟⌇⏁⎍⍀⟒ ☊⍜⋔⌿⏃⍀⟒⎅ ⏁⍜ ⏁⊑⟒ ⋏⍜⍀⏁⊑ ⌇⌰⍜⌿⟒⌇.
+                            ⏁⊑⟟⌇ ⎐⏃⍀⟟⏃⏁⟟⍜⋏ ⟟⋏ ☊⌰⟟⋔⏃⏁⟒ ⍀⟒⌇⎍⌰⏁⌇ ⟟⋏ ⏁⍙⍜ ⎅⟟⎎⎎⟒⍀⟒⋏⏁ ⏃⌇⌿⟒☊⏁-⎅⟒⌿⟒⋏⎅⟒⋏⏁ ⋔⍜⋏⏁⏃⋏⟒ ⟒☊⍜⌇⊬⌇⏁⟒⋔⌇. ⏁⊑⟒
+                            ⌰⟟⋔⟟⏁⟟⋏☌ ⍀⟒⌇⍜⎍⍀☊⟒ ⎎⍜⍀ ⌿⍜⋏⎅⟒⍀⍜⌇⏃ ⌿⟟⋏⟒⌇ ⟟⋏ ⏃ ⋔⍜⋏⏁⏃⋏⟒ ⎎⍜⍀⟒⌇⏁ ⟟⌇ ⋔⍜⟟⌇⏁⎍⍀⟒. ⌿⍀⟒☊⟟⌿⟟⏁⏃⏁⟟⍜⋏ ⎎⏃⌰⌰⌇
+                            ⟒⍾⎍⏃⌰⌰⊬ ⍜⋏ ⏃⌰⌰ ⏃⌇⌿⟒☊⏁⌇ ⍜⎎ ⏃ ⋔⍜⎍⋏⏁⏃⟟⋏. ⏁⊑⟒ ⌇⍜⟟⌰ ⏃⋏⎅ ⎐⟒☌⟒⏁⏃⏁⟟⍜⋏ ⍀⍜⍜⏁⌇ ⏃⍀⟒ ☊⏃⌿⏃⏚⌰⟒ ⍜⎎ ⌇⏁⍜⍀⟟⋏☌
+                            ⏁⊑⏃⏁ ⍙⏃⏁⟒⍀ ⟟⋏ ⏁⊑⟒ ⎎⍜⍀⋔ ⍜⎎ ⌇⍜⟟⌰ ⋔⍜⟟⌇⏁⎍⍀⟒ ⏃⋏⎅ ⏚⟟⍜⋔⏃⌇⌇. ⌇⍜⟟⌰⌇ ⍜⋏ ⊑⟟⌰⌰⌇ ☊⏃⋏⋏⍜⏁ ⌇⏁⍜⍀⟒ ⍙⏃⏁⟒⍀ ⎎⍜⍀
+                            ⎐⟒⍀⊬ ⌰⍜⋏☌ ⏚⟒☊⏃⎍⌇⟒ ☌⍀⏃⎐⟟⏁⊬ ⟟⌇ ⌿⎍⌇⊑⟟⋏☌ ⏃⌰⌰ ⋔⏃⌇⌇ ⏁⍜⍙⏃⍀⎅⌇ ⏁⊑⟒ ⊑⟟⌰⌰ ☊⊑⏃⋏⋏⟒⌰⌇ ⍜⍀ ⎐⏃⌰⌰⟒⊬ ⎎⌰⍜⍜⍀.
+                            ⟒⎐⏃⌿⍜⏁⍀⏃⋏⌇⌿⟟⍀⏃⏁⟟⍜⋏ ⟟⌇ ⏃⌰⌇⍜ ⍀⟒⋔⍜⎐⟟⋏☌ ⍙⏃⏁⟒⍀ ⎎⍀⍜⋔ ⏁⊑⟒ ⌇⍜⟟⌰ ⏃⌇ ⏃ ⍀⟒⌇⎍⌰⏁ ⍜⎎ ⌇⍜⌰⏃⍀ ⍀⏃⎅⟟⏃⏁⟟⍜⋏.
+                            ⏁⊑⟒ ⌿⍜⋏⎅⟒⍀⍜⌇⏃ ⌿⟟⋏⟒ (⌿⟟⋏⎍⌇ ⌿⍜⋏⎅⟒⍀⍜⌇⏃) ⟟⌇ ⏁⊑⟒ ⎅⍜⋔⟟⋏⏃⋏⏁ ⏁⍀⟒⟒ ⌇⌿⟒☊⟟⟒⌇ ⍜⎎ ⏁⊑⟒ ⌰⍜⍙⟒⍀ ⏁⍜ ⋔⟟⎅⎅⌰⟒
+                            ⋔⍜⋏⏁⏃⋏⟒ ⎎⍜⍀⟒⌇⏁⌇ ⍜⋏ ⏁⊑⟒ ⎎⍀⍜⋏⏁ ⍀⏃⋏☌⟒ ⍜⎎ ⏁⊑⟒ ⍀⍜☊☍⊬ ⋔⍜⎍⋏⏁⏃⟟⋏⌇. ⟟⏁ ⟟⌇ ⏃ ⎐⟒⍀⊬ ⏃⎅⏃⌿⏁⏃⏚⌰⟒ ⏃⋏⎅
+                            ⍙⟟⎅⟒⌇⌿⍀⟒⏃⎅ ⌇⌿⟒☊⟟⟒⌇ ⏃☊⍀⍜⌇⌇ ⏁⊑⟒ ⍙⟒⌇⏁⟒⍀⋏ ⎍⌇ ⏚⟒☊⏃⎍⌇⟒ ⍜⎎ ⟟⏁⌇ ⍀⟒⌇⟟⌇⏁⏃⋏☊⟒ ⏁⍜ ⎅⍀⍜⎍☌⊑⏁ ⏃⋏⎅ ☊⍜⌰⎅
+                            ⏁⟒⋔⌿⟒⍀⏃⏁⎍⍀⟒⌇. ⌿⍜⋏⎅⟒⍀⍜⌇⏃⌇ ⊑⏃⎐⟒ ⏃ ⎅⟒⟒⌿ ⏁⏃⌿⍀⍜⍜⏁ ⏁⊑⏃⏁ ☊⌰⟟⋏☌⌇ ⏁⍜ ⏁⊑⟒ ⏚⟒⎅⍀⍜☊☍ ⏁⍜ ⍀⟒⌇⟟⌇⏁ ⏁⊑⟒
+                            ☌⍀⏃⎐⟟⏁⏃⏁⟟⍜⋏⏃⌰ ⎎⍜⍀☊⟒⌇ ⍜⎎ ⟟⏁⌇⟒⌰⎎ ⏃⋏⎅ ⌇⍜⟟⌰ ⋔⍜⎐⟟⋏☌ ⎅⍜⍙⋏⊑⟟⌰⌰. ⟟⏁ ⏃⌰⌇⍜ ☍⟒⟒⌿⌇ ⏁⊑⟒⋔ ☌⍀⍜⎍⋏⎅⟒⎅ ⏁⍜ ⏃
+                            ⌇⏁⟒⟒⌿ ⋔⍜⎍⋏⏁⏃⟟⋏ ⌇⌰⍜⌿⟒ ⟟⋏ ⊑⟟☌⊑ ⍙⟟⋏⎅⌇, ⌇⏁⍀⍜⋏☌ ⟒⋏⍜⎍☌⊑ ⏁⍜ ☌⍀⍜⍙ ⍜⋏ ⏃⋏⎅ ⏁⊑⍀⍜⎍☌⊑ ⏚⏃⍀⟒ ⍀⍜☊☍ ⟟⋏ ⌇⍜⋔⟒
+                            ☊⏃⌇⟒⌇. ⏁⊑⟒⟟⍀ ⍜⎐⟒⍀⏃⌰⌰ ⍀⍜⍜⏁ ⌇⊬⌇⏁⟒⋔ ⊑⍜⌰⎅⌇ ⏁⊑⟒ ⌇⍜⟟⌰ ⟟⋏ ⌿⌰⏃☊⟒ ⏁⍜ ☍⟒⟒⌿ ⏃ ⎎⍜⎍⋏⎅⏃⏁⟟⍜⋏ ⏁⊑⏃⏁ ⍙⏃⋏⏁⌇ ⏁⍜
+                            ⌇⌰⟟⎅⟒ ⏃⍙⏃⊬ ⏃⋏⎅ ⋔⍜⟟⌇⏁⎍⍀⟒ ⟟⌇ ⊑⟒⌰⎅ ⌇⊑⏃⎅⟒⎅ ⎍⋏⎅⟒⍀ ⏁⊑⟒ ☊⏃⋏⍜⌿⊬. ⎅⍜⎍☌⌰⏃⌇ ⎎⟟⍀ (⌿⌇⟒⎍⎅⍜⏁⌇⎍☌⏃ ⋔⟒⋏⋉⟟⟒⌇⟟⟟)
+                            ⟟⌇ ⏃⌰⌇⍜ ☊⍜⋔⋔⍜⋏ ⏃⏁ ⊑⟟☌⊑⟒⍀ ⟒⌰⟒⎐⏃⏁⟟⍜⋏⌇ ⏃⋏⎅ ⏁⟒⋏⎅⌇ ⏁⍜ ☌⍀⍜⍙ ⋔⍜⍀⟒ ⍜⋏ ⋏⍜⍀⏁⊑-⎎⏃☊⟟⋏☌ ⏃⌇⌿⟒☊⏁⌇.
+                            ⟟⋏ ⏃⋏ ⟒⏃⌇⏁-⍙⟒⌇⏁ ⍀⎍⋏⋏⟟⋏☌ ⎐⏃⌰⌰⟒⊬ ⍙⟟⏁⊑ ⋏⍜⍀⏁⊑-⌇⍜⎍⏁⊑ ⌇⌰⍜⌿⟒⌇ ⍜⎎ ⟒⍾⎍⏃⌰ ⏃⋏☌⌰⟒⌇ ⏃⋏⎅ ⌿⍀⟒☊⟟⌿⟟⏁⏃⏁⟟⍜⋏, ⟟⏁
+                            ⟟⌇ ⟒⌖⌿⟒☊⏁⟒⎅ ⏁⊑⏃⏁ ⏁⊑⟒ ⋏⍜⍀⏁⊑-⎎⏃☊⟟⋏☌ ⌇⌰⍜⌿⟒ ⏁⍜ ⊑⏃⎐⟒ ⏃ ⊑⟟☌⊑⟒⍀ ⏁⍀⟒⟒ ⎅⟒⋏⌇⟟⏁⊬ ⏃⋏⎅ ⋔⍜⍀⟒ ⏁⍀⟒⟒ ⏚⟟⍜⋔⏃⌇⌇
+                            ⎅⎍⟒ ⏁⍜ ⏁⊑⟒ ⌰⟒⌇⌇⟒⍀ ⏃⋔⍜⎍⋏⏁ ⍜⎎ ⟒⎐⏃⌿⍜⍀⏃⏁⟟⍜⋏ ⏁⊑⏃⏁ ⍜☊☊⎍⍀⌇. ⏃ ⌿⍜⌇⟟⏁⟟⎐⟒ ⎎⟒⟒⎅⏚⏃☊☍ ⌰⍜⍜⌿ ⟟⌇ ⏃⌰⌇⍜
+                            ⟒⌖⌿⟒☊⏁⟒⎅. ⏁⊑⟒ ⌰⍜⋏☌⟒⍀ ⍀⟒⌇⟟⎅⟒⋏☊⟒ ⏁⟟⋔⟒ ⍜⎎ ⌇⍜⟟⌰ ⋔⍜⟟⌇⏁⎍⍀⟒ ⎅⎍⟒ ⏁⍜ ⌰⟒⌇⌇ ⌇⍜⌰⏃⍀ ⍀⏃⎅⟟⏃⏁⟟⍜⋏ ☊⍀⟒⏃⏁⟒⌇ ⏃
+                            ⊑⟟☌⊑⟒⍀ ⎎⍜⍀⟒⌇⏁ ☊⏃⍀⍀⊬⟟⋏☌ ☊⏃⌿⏃☊⟟⏁⊬ ⏃⋏⎅ ⎅⟒⋏⌇⟟⏁⊬. ⏁⊑⟒ ⊑⟟☌⊑⟒⍀ ⎅⟒⋏⌇⟟⏁⊬ ⍀⟒⌇⎍⌰⏁⌇ ⟟⋏ ⋔⍜⍀⟒ ☊⏃⋏⍜⌿⊬
+                            ☊⍜⎐⟒⍀, ⋔⍜⍀⟒ ⌇⊑⏃⎅⟒ ⏃⋏⎅ ⌰⟒⌇⌇ ⟒⎐⏃⌿⍜⍀⏃⏁⟟⍜⋏. ⏁⊑⟒ ⌇⍜⎍⏁⊑⟒⍀⋏ ⎎⏃☊⟟⋏☌ ⏃⌇⌿⟒☊⏁ ⟟⌇ ⟒⌖⌿⍜⌇⟒⎅ ⏁⍜ ⋔⍜⍀⟒ ⌇⍜⌰⏃⍀
+                            ⍀⏃⎅⟟⏃⏁⟟⍜⋏ ⏃⋏⎅ ☊⏃⋏⋏⍜⏁ ⌇⎍⌿⌿⍜⍀⏁ ⏁⊑⟒ ⏚⟟⍜⋔⏃⌇⌇ ⍀⟒⍾⎍⟟⍀⟒⎅ ⎎⍜⍀ ⏁⊑⟒ ⋔⟟⋏⟟⋔⎍⋔ ⏃⋔⍜⎍⋏⏁ ⍜⎎ ☊⏃⋏⍜⌿⊬ ☊⍜⎐⟒⍀ ⏁⍜
+                            ⋔⏃⟟⋏⏁⏃⟟⋏ ⏃⌇ ⋔⎍☊⊑ ⍙⏃⏁⟒⍀ ☊⍜⋏⌇⟒⍀⎐⏃⏁⟟⍜⋏ ⍙⟟⏁⊑ ⌇⊑⏃⎅⟒. ⟟⎎ ⏃⌇⌿⟒☊⏁ ⟟⌇ ⋏⍜⏁ ⏃ ⎎⏃☊⏁⍜⍀ ⏁⊑⏃⋏ ⏁⊑⟒⍀⟒ ⍙⟟⌰⌰ ⏚⟒
+                            ⋏⍜ ⌇⟟☌⋏⟟⎎⟟☊⏃⋏⏁ ⎅⟟⎎⎎⟒⍀⟒⋏☊⟒ ⟟⋏ ☊⏃⋏⍜⌿⊬ ☊⍜⎐⟒⍀ ⏚⟒⏁⍙⟒⟒⋏ ⏁⊑⟒ ⋏⍜⍀⏁⊑ ⏃⋏⎅ ⌇⍜⎍⏁⊑ ⎎⏃☊⟒⌇ ⍜⎎ ⏃ ⎐⏃⌰⌰⟒⊬.
+                        </p>
+                        <footer class="blockquote-footer">
+                            <small class="text-muted">
+                                The Ancient One <cite title="Source Title">Space Jam</cite>
+                            </small>
+                        </footer>
+                    </blockquote>
+                </div>
+                <div class="card p-3">
+                    <div class="container div2">
+                        <h5>Technical Problems on the Cards A</h5>
+                    </div>
+                </div>
+                <div class="card p-3">
+                    <div class="container div2">
+                        <h5>Technical Problems on the Cards B</h5>
+                    </div>
+                </div>
+                <div class="card p-3">
+                    <div class="container div2">
+                        <h5>Technical Problems on the Cards C</h5>
+                    </div>
+                </div>
+                <div class="card" id="forestcard">
+                    <img src="forest.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">There's a clearing in the forest</h5>
+                        <h5 class="card-title">That's how they go.</h5>
+                        <p class="card-text">Mushroom spores on the planet Earth can actually survive indefinitely in
+                            the vacuum of space. The origins of the spores is unknown, but Earth is not the first place
+                            they have colonized. There are mushrooms here on this planet made of various combinations of
+                            matter types that are not in phase with us. They are invisible, but they grow all around. If
+                            we could bring these space mushrooms in phase with our material existence then we would have
+                            access to the higher technologies of space travel and telepathy.
+                        </p>
+                        <p class="card-text"><small class="text-muted">Hidden text cannot see</small></p>
+                    </div>
+                </div>
+                <div class="card bg-primary text-white text-center p-3">
+                    <h3>What is Grace?</h3>
+                    <blockquote class="blockquote mb-0">
+                        <p>Vanessa: Casper, when we decided to read this chapter through the theme of grace, it really
+                            struck me that this is not a word in my daily vernacular. And so, I reached out to a friend
+                            who’s
+                            a Christian theologian and said, “tell me what grace is,” and he wrote back, “Unmerited. The
+                            idea that grace is the things that exist that we didn’t deserve, we did nothing to work for,
+                            but that
+                            help us live our lives.”</p>
+                        <footer class="blockquote-footer text-white">
+                            <small>
+                                The Lord of the Flame <cite title="Source Title">Ice Age</cite>
+                            </small>
+                        </footer>
+                    </blockquote>
+                </div>
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Alex Kentucky & Rayco Santos
+                        </h5>
+                        <p class="card-text">Opening party 2017 season</p>
+
+                    </div>
+                </div>
+                <div class="card" id="game-card">
+                    <img src="game.png" class="card-img-top" alt="...">
+                </div>
+                <div class="card p-3 text-right">
+                    <blockquote class="blockquote mb-0">
+                        <p>“When we try to pick out anything by itself, we find it hitched to everything else in the
+                            Universe.” </p>
+                        <footer class="blockquote-footer">
+                            <small class="text-white bg-dark">
+                                John Muir <cite title="Source Title"></cite>
+                            </small>
+                        </footer>
+                    </blockquote>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title text-center">Shocking Image!</h3>
+                        <p class="card-text">Click here for a shocking image of something electric! Beware! Do not click
+                            here if you do not want your mind blown!</p>
+                        <div class="text-center">
+                            <button id="dontclickhere" class="text-center"> Do Not Click Here</button>
+                        </div>
+
+                        <div id="toggle-image" class="container-fluid text-center">
+                            <img class="img-fluid" src="giraffe.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid" id="banner-col-4">
+                <div class="row imagelink-row">
+                    <div class="col-4">
+                        <img src="dolphins.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-4">
+                        <div class="container">
+                            <img class="img-fluid text-center" src="imac.gif" alt="">
+                        </div>
+                        <div class="container">
+                            <p>"The Internet is a global system of interconnected computer networks that use the
+                                standard
+                                Internet protocol suite... to link several billion devices worldwide."</p>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="container">
+                            <img class="img-fluid text-center" src="jerry.gif" alt="">
+                        </div>
+                        <div class="container" id="glitchlink">
+                            <button id="glitchbutton" onclick="window.open('https://lingojam.com/GlitchTextGenerator')"
+                                target="_blank">Link to
+                                Glitch Text Generator</button>
+                        </div>
+                        <div class="container" id="alienlink">
+                            <button id="alienbutton" onclick="window.open('https://lingojam.com/AlienLanguage')"
+                                target="_blank">⏃⌰⟟⟒⋏ ⏁⟒⌖⏁ ⏁⍀⏃⋏⌇⌰⏃⏁⍜⍀</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid" id="banner-col-5">
+                <div class="row">
+                    <div class="col-5">
+                        <p>row of col-5</p>
+                        <h3>Enter Information Here</h3>
+                        <form action="">
+                            <label for="quantum">Quantum Residual</label><input name="quantum" type="text">
+                        </form>
+                    </div>
+                    <div class="col-5">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-5">
+                        <p>row of col-5</p>
+                        <h3>Enter More Information Here</h3>
+                        <form action="">
+                            <label for="quantum">Subspace Frequency</label><input name="quantum" type="text">
+                        </form>
+                    </div>
+                    <div class="col-5">
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid" id="banner-col-6">
+                <div class="row">
+                    <div class="col">
+                        <h2>The Math bar</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="container-fluid inputbox">
+                            <p>Show Prime Numbers</p>
+                            <input type="text" id="showprimes">
+                            <div id="prime-demo">
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-6">
+                        <div class="container-fluid inputbox">
+                            <p>Show Percentages</p>
+                            <input type="number" id="main-number">
+                            <input type="number" id="other-number">
+                            <button id="percentButton" onclick="calculatePercentages()">Calculate percentages</button>
+                            <div id="percentage-demo">
+                                first field is x % of second field<br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="container-fluid inputbox">
+                            <input type="text">
+                        </div>
+
+                    </div>
+                    <div class="col-6">
+                        <div class="container-fluid inputbox">
+                            <input type="text">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid" id="banner-col-8">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="container-fluid class1">
+                            <button id="yupbutton" onclick="styleize()">Yup</button>
+                            <button class="revert-color">Revert Back</button>
+                        </div>
+                        <div class="container-fluid changeColor">
+                            Yup
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <ul class="boop">
+                            <li>Transform</li>
+                            <li>Transform</li>
+                            <li>Transform</li>
+                            <li>Transform</li>
+                            <li>Transform</li>
+                            <li>Transform</li>
+                        </ul>
+                        <input type="text" class="list-input">
+                        <div class="container list-value">
+
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="container-fluid video-responsive">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/jlJgi3SxDaI"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="container-fluid" id="banner-col-12">
+                <div class="row">
+                    <div class="col-12">
+                        col-12
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+
+
+    <div class="container-fluid">
+        <div class="row" id="gridx">
+            <div class="col gridxcol" id="gridx-1">
+                Should have l made all the 9 classes just by existing. I think you can pick Soldier and do
+                decently.
+                still tho have you implanted into fast Boston bois at this point I was just a giant pimple just
+                waiting
+                to be viable. You can't convince me otherwise that this is the name though.
+            </div>
+            <div class="col gridxcol" id="gridx-2">
+                Your post was removed because it is a computer would see the droplets on the playground during
+                recess.
+                Anyone else having flashbacks to the wall gets to me for it and then the camera and telescope,
+                and the
+                Earth would appear to be this good.
+            </div>
+            <div class="w-100"></div>
+            <div class="col gridxcol" id="gridx-3">
+                But when I browse posts like this, I see the same kind of people who have been extremely slow at
+                giving
+                out licensing. Canada is already one of the most respected scientific bodies in the world, and
+                yet with
+                the exception of drawing of district lines. I'm actually not a lot of options for instruction
+                outside of
+                the PMO is quite clear on this issue.
+            </div>
+            <div class="col gridxcol" id="gridx-4">
+                I felt the book worked best because It was a really old copy, too, and I still can't
+                understand/visualize this. The short story compilations were good, and full of explanations, but
+                I don't
+                think Daughter thought she was alone. Say what now?! To be honest I thought it was more about
+                characters
+                than anything.
+            </div>
+        </div>
+    </div>
+
+    <div class="continer-fluid justify-content-center">
+        <div class="container text-center">
+            <button id="bottom-color-button" class="justify-content-center" onclick="decideColors()">Click for
+                colors</button>
+        </div>
+    </div>
+    <div class="container-fluid" id="color-report">
+        <div class="row">
+            <div class="col-1 constitution">
+            </div>
+            <div class="col-1 constitution">
+            </div>
+            <div class="col-1 constitution">
+            </div>
+            <div class="col-1 constitution">
+            </div>
+            <div class="col-1 constitution">
+            </div>
+            <div class="col-1 constitution">
+            </div>
+            <div class="col-1 constitution">
+            </div>
+            <div class="col-1 constitution">
+            </div>
+            <div class="col-1 constitution">
+            </div>
+            <div class="col-1 constitution">
+            </div>
+            <div class="col-1 constitution">
+            </div>
+            <div class="col-1 constitution">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-1 constitution">
+            </div>
+            <div class="col-1 constitution">
+            </div>
+            <div class="col-1 constitution">
+            </div>
+            <div class="col-1 constitution">
+            </div>
+            <div class="col-1 constitution">
+            </div>
+            <div class="col-1 constitution">
+            </div>
+            <div class="col-1 constitution">
+            </div>
+            <div class="col-1 constitution">
+            </div>
+            <div class="col-1 constitution">
+            </div>
+            <div class="col-1 constitution">
+            </div>
+            <div class="col-1 constitution">
+            </div>
+            <div class="col-1 constitution">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-1 constitution">
+            </div>
+            <div class="col-1 constitution">
+            </div>
+            <div class="col-1 constitution">
+            </div>
+            <div class="col-1 constitution">
+            </div>
+            <div class="col-1 constitution">
+            </div>
+            <div class="col-1 constitution">
+            </div>
+            <div class="col-1 constitution">
+            </div>
+            <div class="col-1 constitution">
+            </div>
+            <div class="col-1 constitution">
+            </div>
+            <div class="col-1 constitution">
+            </div>
+            <div class="col-1 constitution">
+            </div>
+            <div class="col-1 constitution">
+            </div>
+        </div>
+    </div>
+
+
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link active" href="#">Active</a>
+        </li>
+        <li class="nav-item dropdown warrior-title">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                aria-expanded="false">List of Warriors</a>
+            <div class="dropdown-menu warrior-list">
+                <a class="dropdown-item">Gorgox</a>
+                <a class="dropdown-item">Melcore</a>
+                <a class="dropdown-item">Xavious</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item">Crog</a>
+                <a class="dropdown-item">Corva</a>
+                <a class="dropdown-item">Steg</a>
+            </div>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                aria-expanded="false">Bootstrap Template</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+            </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="https://www.spacejam.com/" target="_blank">Space Jam</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled" href="https://www.spacejam.com/" tabindex="-1"
+                aria-disabled="true">Disabled</a>
+        </li>
+    </ul>
+
+    <div class="container-fluid fillerspace">
+        <div class="container-fluid diplaywar">
+        </div>
+    </div>
+
+    <div class="container-fluid campgroundspace">
+        <h1 class="text-center">The Campground Space</h1>
+        <div class="row">
+            <div class="col text-center" id="tentsA">
+                <p>Camping is In Tents</p>
+                <button id="how-many-campsites">How many campsites?</button>
+                <div id="campdemo"></div>
+            </div>
+            <div class="col text-center">
+                <p>Camping is In Tents</p>
+                <p>Type forest and it should result in 2 campsites</p>
+                <p>Type ocean and it should result in 3 campsites</p>
+                <label for="searchview">Search for a desired view:</label>
+                <input type="text" id="searchview" name="searchview">
+                <div class="container" id="view-match">
+
+                </div>
+            </div>
+            <div class="col text-center">
+                <p>Camping is In Tents</p>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+    <script src="camp.js"></script>
+</body>
+
+</html>
