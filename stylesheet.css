@@ -34,9 +34,74 @@ body {
 #about p {
     color: goldenrod !important;
 }
-#about a {
+#about a, #song-list a {
     color: greenyellow !important;
 }
+
+#rock-paper-scisors {
+    background-color: #7EBBBD;
+}
+
+.score {
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.score h2 {
+    font-size: 30px;
+}
+
+.score p {
+    text-align: center;
+    padding: 10px;
+    font-size: 25;
+}
+
+.intro {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.intro h1 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.intro button, .match button {
+    width: 300px;
+    height: 50px;
+    background-color: #D858EB;
+    font-family: monospace;
+    font-weight: 900;
+    color: #1E5D09 !important;
+    border-radius: 15px;
+}
+
+.intro button:hover, .match button:hover {
+    background-color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: greenyellow !important;
+}
+
+.options {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.player-hand {
+    transform: rotateY(180deg);
+}
+
+.wacky {
+    font-family: fantasy;
+    color: goldenrod !important;
+}
+
 /* Buttons */
 
 .btn-primary {
@@ -343,4 +408,10 @@ background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100
 .colid-name {
     background-color: black;
     color: greenyellow !important;
+}
+
+.ex1 {
+    background-color: gray;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
 }

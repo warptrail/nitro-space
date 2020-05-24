@@ -74,7 +74,8 @@
             <div class="col-3">
                 <p>
                     Move around, press the buttons, explore the source code. Thanks to <a
-                        href="https://www.thinkful.com/bootcamp/san-francisco-coding-bootcamp/?utm_campaign=TF_San-Francisco_Search_Local_Exact&utm_medium=cpc&utm_content=TF_San-Francisco_Search_Brand-Local_Exact_Ad-Group_c_brand-local_421356796961&utm_term=thinkful_e&utm_source=google&partnership=TF_San-Francisco_Search_Local_Exact_google_thinkful_brand-local&gclid=Cj0KCQjwzZj2BRDVARIsABs3l9IO4e7Gkc1LYO2p424jD02h3Dm7jzIdL7QArTtH4rteMiAv6eCRjcsaAuCIEALw_wcB">Thinkful.com</a>
+                        href="https://www.thinkful.com/bootcamp/san-francisco-coding-bootcamp/?utm_campaign=TF_San-Francisco_Search_Local_Exact&utm_medium=cpc&utm_content=TF_San-Francisco_Search_Brand-Local_Exact_Ad-Group_c_brand-local_421356796961&utm_term=thinkful_e&utm_source=google&partnership=TF_San-Francisco_Search_Local_Exact_google_thinkful_brand-local&gclid=Cj0KCQjwzZj2BRDVARIsABs3l9IO4e7Gkc1LYO2p424jD02h3Dm7jzIdL7QArTtH4rteMiAv6eCRjcsaAuCIEALw_wcB"
+                        target="_blank">Thinkful.com</a>
                     for giving me the
                     idea to implement their teachings in this way.
                 </p>
@@ -84,6 +85,7 @@
             </div>
         </div>
     </div>
+
 
 
     <div class="container-fluid" id="banner-col-1">
@@ -148,6 +150,16 @@
             </div>
             <div class="col-2">
 
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <div id="todays-date" class="ex1">
+
+                </div>
             </div>
         </div>
     </div>
@@ -344,18 +356,28 @@
                     </blockquote>
                 </div>
                 <div class="card p-3">
-                    <div class="container div2">
-                        <h5>Technical Problems on the Cards A</h5>
-                    </div>
+
+                    <img src="alien-name.png" alt="" class="img-fluid" style="width:100%">
+
+                </div>
+                <div class="card p-3">
+                    <img src="cardbeta.png" alt="" class="img-fluid" style="width:100%">
                 </div>
                 <div class="card p-3">
                     <div class="container div2">
-                        <h5>Technical Problems on the Cards B</h5>
-                    </div>
-                </div>
-                <div class="card p-3">
-                    <div class="container div2">
-                        <h5>Technical Problems on the Cards C</h5>
+                        <h5>Enter a String and we will move it one character to the right</h5>
+
+                        <form id="shiftyform">
+                            <label for="to-the-right">Enter some words here</label>
+                            <input name="to-the-right" id="origninal-string" class="form-control input-sm inputbox"
+                                type="text">
+                            <button type="submit" id="shiftysubmit">
+                                Move one to the Right
+                            </button>
+                        </form>
+                        <div id="shiftychars" class="container div2">
+
+                        </div>
                     </div>
                 </div>
                 <div class="card" id="forestcard">
@@ -392,10 +414,18 @@
                 </div>
                 <div class="card text-center">
                     <div class="card-body">
-                        <h5 class="card-title">Alex Kentucky & Rayco Santos
+                        <h5 class="card-title"> Get the first three characters plus the last three characters
                         </h5>
-                        <p class="card-text">Opening party 2017 season</p>
+                        <!-- <p class="card-text"></p> -->
+                        <form id="three-char">
+                            <input type="text" id="stringzinput">
+                            <button id="stringzbutton" type="submit">
+                                First Three Plus Last Three
+                            </button>
+                        </form>
+                        <div id="stringzdemo">
 
+                        </div>
                     </div>
                 </div>
                 <div class="card" id="game-card">
@@ -460,126 +490,158 @@
                 </div>
             </div>
             <div class="container-fluid" id="banner-col-5">
-                <div class="row">
-                    <div class="col-5">
-                        <p>row of col-5</p>
-                        <h3>Enter Information Here</h3>
-                        <form action="">
-                            <label for="quantum">Quantum Residual</label><input name="quantum" type="text">
-                        </form>
-                    </div>
-                    <div class="col-5">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-5">
-                        <p>row of col-5</p>
-                        <h3>Enter More Information Here</h3>
-                        <form action="">
-                            <label for="quantum">Subspace Frequency</label><input name="quantum" type="text">
-                        </form>
-                    </div>
-                    <div class="col-5">
-                    </div>
-                </div>
-            </div>
+                <div class="container">
 
-            <div class="container-fluid" id="banner-col-6">
-                <div class="row">
-                    <div class="col">
-                        <h2>The Math bar</h2>
+                </div>
+
+                <div class="container-fluid" id="banner-col-6">
+                    <div class="row">
+                        <div class="col">
+                            <h2>The Math bar</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="container-fluid inputbox">
+                                <p>Show Prime Numbers</p>
+                                <input type="text" id="showprimes">
+                                <div id="prime-demo">
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-6">
+                            <div class="container-fluid inputbox">
+                                <p>Show Percentages</p>
+                                <input type="number" id="main-number">
+                                <input type="number" id="other-number">
+                                <button id="percentButton" onclick="calculatePercentages()">Calculate
+                                    percentages</button>
+                                <div id="percentage-demo">
+                                    first field is x % of second field<br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="container-fluid inputbox">
+                                <input type="text">
+                            </div>
+
+                        </div>
+                        <div class="col-6">
+                            <div class="container-fluid inputbox">
+                                <input type="text">
+                            </div>
+
+                        </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-6">
-                        <div class="container-fluid inputbox">
-                            <p>Show Prime Numbers</p>
-                            <input type="text" id="showprimes">
-                            <div id="prime-demo">
 
+                <div class="container-fluid" id="banner-col-8">
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="container-fluid class1">
+                                <button id="yupbutton" onclick="styleize()">Yup</button>
+                                <button class="revert-color">Revert Back</button>
+                            </div>
+                            <div class="container-fluid changeColor">
+                                Yup
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <ul class="boop">
+                                <li>Transform</li>
+                                <li>Transform</li>
+                                <li>Transform</li>
+                                <li>Transform</li>
+                                <li>Transform</li>
+                                <li>Transform</li>
+                            </ul>
+                            <input type="text" class="list-input">
+                            <div class="container list-value">
+
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="container-fluid video-responsive">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/jlJgi3SxDaI"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
                             </div>
                         </div>
 
                     </div>
-                    <div class="col-6">
-                        <div class="container-fluid inputbox">
-                            <p>Show Percentages</p>
-                            <input type="number" id="main-number">
-                            <input type="number" id="other-number">
-                            <button id="percentButton" onclick="calculatePercentages()">Calculate percentages</button>
-                            <div id="percentage-demo">
-                                first field is x % of second field<br>
-                            </div>
+                </div>
+
+                <div class="container-fluid" id="banner-col-12">
+                    <div class="row">
+                        <div class="col-12">
+                            Do you know if I could override this and have it set to conserve power when plugged in? My
+                            only question is, wouldn't the other drive to boot from. are you sure you have the usb drive
+                            with this program. After the third shot I did some digging and it seems fine, functions
+                            fine.
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div id="song-list" class="col-4 ">
+                            <h2>List of songs</h2>
+                            <a href="https://soundcloud.com/suprematic/spieltape-all-of-you-oliver-schories-remix">All
+                                of You - Oliver Schories Remix</a>
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-6">
-                        <div class="container-fluid inputbox">
-                            <input type="text">
-                        </div>
 
-                    </div>
-                    <div class="col-6">
-                        <div class="container-fluid inputbox">
-                            <input type="text">
-                        </div>
-
-                    </div>
-                </div>
             </div>
-
-            <div class="container-fluid" id="banner-col-8">
-                <div class="row">
-                    <div class="col-4">
-                        <div class="container-fluid class1">
-                            <button id="yupbutton" onclick="styleize()">Yup</button>
-                            <button class="revert-color">Revert Back</button>
-                        </div>
-                        <div class="container-fluid changeColor">
-                            Yup
-                        </div>
-                    </div>
-                    <div class="col-4">
-                        <ul class="boop">
-                            <li>Transform</li>
-                            <li>Transform</li>
-                            <li>Transform</li>
-                            <li>Transform</li>
-                            <li>Transform</li>
-                            <li>Transform</li>
-                        </ul>
-                        <input type="text" class="list-input">
-                        <div class="container list-value">
-
-                        </div>
-                    </div>
-                    <div class="col-4">
-                        <div class="container-fluid video-responsive">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/jlJgi3SxDaI"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen></iframe>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="container-fluid" id="banner-col-12">
-                <div class="row">
-                    <div class="col-12">
-                        col-12
-                    </div>
-
-                </div>
-            </div>
-
         </div>
     </div>
+
+    <div class="container-fluid">
+        <div class="container text-center">
+            <h2>Rock Paper scissors</h2>
+        </div>
+        <div class="container" id="rock-paper-scisors">
+            <div class="score">
+                <div class="player-score">
+                    <h2>Player</h2>
+                    <p>0</p>
+                </div>
+                <div class="computer-score">
+                    <h2>Computer</h2>
+                    <p>0</p>
+                </div>
+                <div class="tie-count">
+                    <h2>Amount of Ties</h2>
+                    <p>0</p>
+                </div>
+            </div>
+
+            <div class="intro">
+                <h1>Rock Paper scissors</h1>
+                <button class="intro-button">Let's Play</button>
+            </div>
+
+            <div class="match">
+                <h2 class="winner">Choose an option</h2>
+                <div class=" row justify-content-between hands">
+                    <div class="col-4">
+                        <img class="img-fluid player-hand" src="rock.png" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid computer-hand" src="rock.png" alt="">
+                    </div>
+                </div>
+                <div class="options">
+                    <button class="rock">rock</button>
+                    <button class="paper">paper</button>
+                    <button class="scissors">scissors</button>
+                </div>
+            </div>
+        </div>
     </div>
-
-
 
     <div class="container-fluid">
         <div class="row" id="gridx">
@@ -785,6 +847,7 @@
         crossorigin="anonymous"></script>
     <script src="app.js"></script>
     <script src="camp.js"></script>
+    <script src="rps.js"></script>
 </body>
 
 </html>
